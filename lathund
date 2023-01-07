@@ -2,3 +2,7 @@ starta server: docker-compose -up
 linta: docker-compose run --rm app sh -c "flake8"
 starta admin: docker-compose run --rm app sh -c "django-admin startproject app ."
 run tests: docker-compose run --rm app sh -c "python manage.py test"
+
+
+This command creates a new Django app called "core":
+docker-compose run --rm app sh -c "python manage.py startapp core"
