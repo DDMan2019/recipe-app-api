@@ -13,3 +13,17 @@ docker-compose run --rm app sh -c "python manage.py makemigrations"
 run migration:
 docker-compose run --rm app sh -c "python manage.py wait_for_db && python manage.py migrate"
 
+to create superuser:
+docker-compose run --rm app sh -c "python manage.py createsuperuser"
+
+username can be for example: admin@example.com
+
+Never store passwords in public git!
+password needs atleast 8 characters, use: passw0rd123!
+
+If you lose the password, remove db and re-create it again
+
+
+Admin interface
+http://localhost:8000/admin/
+
