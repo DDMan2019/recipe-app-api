@@ -1,4 +1,4 @@
-
+Build docker-container: docker-compose build
 starta server: docker-compose -up
 linta: docker-compose run --rm app sh -c "flake8"
 starta admin: docker-compose run --rm app sh -c "django-admin startproject app ."
@@ -25,6 +25,9 @@ password needs atleast 8 characters, use: passw0rd123!
 If you lose the password, remove db and re-create it again
 
 
-Admin interface
+Links:
+Admin interface:
 http://localhost:8000/admin/
 
+Swagger docs:
+http://localhost:8000/api/docs/
