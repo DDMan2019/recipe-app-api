@@ -25,6 +25,9 @@ password needs atleast 8 characters, use: passw0rd123!
 If you lose the password, remove db and re-create it again
 
 
-Admin interface
+Links:
+Admin interface:
 http://localhost:8000/admin/
 
+Swagger docs:
+http://localhost:8000/api/docs/
