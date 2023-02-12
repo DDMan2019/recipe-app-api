@@ -37,3 +37,7 @@ För att logga in skaffa token, gå in på Authorize skriv tex "Token 04a9abctok
 misc commands
 Create userapp: docker-compose run --rm app sh -c "python manage.py startapp user"
 
+to run docker for prod:
+
+docker-compose -f docker-compose-deploy.yml up
+<!-- docker-compose -f docker-compose-deploy.yml down --> // to clear stuffs

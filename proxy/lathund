@@ -1,0 +1,2 @@
+To build in this directory run:
+docker build .
