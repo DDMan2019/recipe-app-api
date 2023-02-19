@@ -41,3 +41,6 @@ to run docker for prod:
 
 docker-compose -f docker-compose-deploy.yml up
 <!-- docker-compose -f docker-compose-deploy.yml down --> // to clear stuffs
+
+to run the prodserver locally use:
+http://127.0.0.1:80/api/docs/
